@@ -23,7 +23,7 @@ def bad(text):
         return '[\033[1m\033[91m-\033[0m] \033[31m'+str(text)+'\033[0m'
     else:
         text = text.split(': ')
-        return '[\033[1m\033[91m*\033[0m] \033[31m'+str(text[0])+': '+'\033[0m\033[91m\033[3m'+str(text[1])+'\033[0m'
+        return '[\033[1m\033[91m-\033[0m] \033[31m'+str(text[0])+': '+'\033[0m\033[91m\033[3m'+str(text[1])+'\033[0m'
 
 
 def warning(text):
@@ -31,7 +31,7 @@ def warning(text):
         return'[\033[1m\033[93m!\033[0m] \033[33m'+str(text)+'\033[0m'
     else:
         text = text.split(': ')
-        return '[\033[1m\033[93m*\033[0m] \033[33m'+str(text[0])+': '+'\033[0m\033[93m\033[3m'+str(text[1])+'\033[0m'
+        return '[\033[1m\033[93m!\033[0m] \033[33m'+str(text[0])+': '+'\033[0m\033[93m\033[3m'+str(text[1])+'\033[0m'
 
 
 def good(text):
@@ -39,7 +39,7 @@ def good(text):
         return '[\033[1m\033[92m+\033[0m] \033[32m'+str(text)+'\033[0m'
     else:
         text = text.split(': ')
-        return '[\033[1m\033[92m*\033[0m] \033[32m'+str(text[0])+': '+'\033[0m\033[92m\033[3m'+str(text[1])+'\033[0m'
+        return '[\033[1m\033[92m+\033[0m] \033[32m'+str(text[0])+': '+'\033[0m\033[92m\033[3m'+str(text[1])+'\033[0m'
 
 
 def cls():
