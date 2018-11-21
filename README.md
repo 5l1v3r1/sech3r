@@ -29,6 +29,7 @@ sech3r
 ```
 
 ## Output
+[![SeCh3rDemo](https://asciinema.org/a/213041.svg)](https://asciinema.org/a/213041?autoplay=1)
 ```
    _____      ________   _____
   / ___/___  / ____/ /_ |__  /_____
